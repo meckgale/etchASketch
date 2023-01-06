@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 250px;
+    height: 800px;
+    width: 800px;
+    background-color: black;
+    border: solid 2px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+button{
+    height: 25px;
+    width: 100px;
+}
+.settings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: solid 2px;
+}
+
+/* #container:hover {
+    background-color: white;
+} */
